@@ -1,4 +1,4 @@
-This Project tackles tackle the type conversion of various datatypes. A non-Nullable column can be trivially converted to a
+This Project tackles the type conversion of various datatypes. A non-Nullable column can be trivially converted to a
 Nullable one of identical type: for example when converting an Int64 column to a Nullable(Int64) column, the new column would 
 simply contain all original values, but would now have the ability to contain NULL for any new data inserted. This trivial conversion
 is not possible the other way around; when converting a Nullable column to a non- Nullable one, a specific value (belonging to the base type) 
